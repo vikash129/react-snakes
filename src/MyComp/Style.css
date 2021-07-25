@@ -1,0 +1,42 @@
+
+#board {
+  background: linear-gradient(rgb(5, 184, 32),rgb(64, 255, 0));
+  /* background: url('../images/board.jpg'); */
+  border: 2px solid black;
+/* background-repeat: no-repeat; */
+ /* opacity: 0.3; */
+
+  position: relative;
+
+}
+
+.snakeBody{
+   position: absolute;
+    width: 5%;
+    height: 5%;
+    z-index: 2;
+    transition: -webkit-transform 0.3s ease-out;
+  border: 1px solid rgb(25, 21, 21);
+  background-color: rgb(182, 29, 24);
+}
+
+#head{
+  
+  background-color: rgb(24, 32, 182);
+}
+
+
+#food{
+    position: absolute;
+    background: rgb(3, 3, 3);
+    border: 2px solid rgb(238, 233, 233);
+    z-index: 1;
+    width: 4% ;
+    height: 4%;
+}
+
+
+.score {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
